@@ -1,0 +1,58 @@
+body {
+
+}
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a, p {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.header {
+    height: 60px;
+    background-color: #c2c2c2
+
+}
+.top-nav {
+    width: 960px;
+    height: 60px;
+    background-color: #757575;
+}
+.logo-wrapper {
+    width: 250px;
+    height: 50px;
+}
+.logo {
+    width: 200px;
+    height: 40px;
+    background-color: #4b4b4b;
+
+}
+.nav {
+    width: 250px;
+    height: 50px;
+}
+.nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+.container {
+    width: 960px;
+    height: 500px;
+    background-color: #464646;
+}
+
+.images {
+
+}
+.bio {
+
+}
+.footer {
+    background-color: #666666;
+
+}
+
