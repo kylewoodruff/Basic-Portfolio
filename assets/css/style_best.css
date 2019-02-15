@@ -11,7 +11,8 @@ a, p {
     top: 0;
     height: 57px;
     background-color: #ffffff;
-    border-bottom: 3px solid #666666;
+    border-bottom: 3px solid #4aaaa5;
+    background-color: #666666;
 }
 .top-nav {
     width: 960px;
@@ -42,6 +43,7 @@ a, p {
     text-decoration: none;
     text-align: center;
     font-size: 18px;
+    color: #ffffff;
     display: inline-block;
 }
 
@@ -54,8 +56,9 @@ a, p {
     margin-top: 30px;
     margin-bottom: 70px;
     width: 960px;
-    background-color: #ffffff;
+    background-color: #fdfcf8;
     border: 2px solid #dddddd;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .section-header{
@@ -63,11 +66,13 @@ a, p {
     top: 10px;
     margin: 20px;
     color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
 }
 
 .images {
     float: left;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 5px;
+    width: 200px;
 }
 .bio {
     margin: 10px;
