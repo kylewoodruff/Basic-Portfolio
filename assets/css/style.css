@@ -130,17 +130,17 @@ button {
     height: 310px;
 }
 .workimg{
-    margin-top: 10px;
-    margin: 0 auto;
+    margin: -35px 17.5px;
     width: 275px;
     height: 275px;
+    display: inline-block;
     background-color: #d11717
 }
 .titlewrapper {
-    z-index: 2;
+    position: relative;
+    top: 230px;
     padding-bottom: 10px;
     margin: 0 auto;
-    margin-top: -60px;
     width: 275px;
     background-color: #4aaaa5;
 }
