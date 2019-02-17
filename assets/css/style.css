@@ -4,8 +4,54 @@ body {
 h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+h3 {
+    margin: 10px 0 0 0;
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
 a, p {
     font-family: Arial, Helvetica, sans-serif; 
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: 0;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+  }
+textarea {
+    height: 150px;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical;
+}
+button {
+    margin: 10px 10px 20px 0;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #4aaaa5;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+
 }
 .header {
     top: 0;
@@ -54,9 +100,11 @@ a, p {
     margin-top: 30px;
     margin-bottom: 70px;
     width: 960px;
+    height: auto;
     background-color: #fdfcf8;
     border: 2px solid #dddddd;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    overflow: auto;
 }
 .section-header{
     left: 10px;
@@ -65,14 +113,51 @@ a, p {
     color: #4aaaa5;
     border-bottom: 2px solid #dddddd;
 }
-.images {
+.content {
+    width: 100%;
+}
+.bioimage {
     float: left;
-    padding: 5px 5px;
+    padding: 5px 10px;
     width: 200px;
 }
 .bio {
-    margin: 10px;
+    margin: 20px;
 }
+.workexample {
+    float: left;
+    width: 310px;
+    height: 310px;
+}
+.workimg{
+    margin-top: 10px;
+    margin: 0 auto;
+    width: 275px;
+    height: 275px;
+    background-color: #d11717
+}
+.titlewrapper {
+    z-index: 2;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-top: -60px;
+    width: 275px;
+    background-color: #4aaaa5;
+}
+.workTitle {
+    padding-top: 10px;
+    color: #ffffff;
+    text-shadow: 1px 3px 8px #545454;
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+.contact-form {
+    margin-left: 20px;
+    width: 920px;
+}
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -88,4 +173,7 @@ a, p {
 }
 .footer p {
     padding-bottom: 10px;
+}
+#message {
+    height: 150px;
 }

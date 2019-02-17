@@ -10,41 +10,50 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="logo">Kyle Woodruff</h1>
-        <nav id="nav">
-            <h3>
-                <a href="./index.html">About</a>
-            </h3>
-            <h3>
-                <a href="./portfolio.html">Portfolio</a>
-            </h3>
-            <h3>
-                <a href="./contact.html">Contact</a>
-            </h3>
-        </nav>
-    </header>
-    <section class="container">
-        <form class="contact_form">
-            Full name:<br>
-            <input type="text" name="fullname">
-            <br>
-            Email:<br>
-            <input type="email" name="email">
-            <br>
-            Message:<br>
-            <input type="text" name="message">
-            <br><br>
-            <button>
-                <input type="submit" value="Submit">
-            </button>
-        </form>
-    </section>
-    <footer>
-            <div>
-                Copyright 2019
+
+    <body background="assets/images/prism/prism.png">
+        <header class="header">
+            <div class="top-nav">
+                <nav class="nav">
+                    <a href="./index.html">About</a>
+                    <a href="./portfolio.html">Portfolio</a>
+                    <a href="./contact.html">Contact</a>
+                </nav>
+
+                <div class="logo-wrapper">
+                    <span class="logo">Kyle Woodruff</span>
+                </div>
             </div>
+        </header>
+        <section class="main-container">
+            <div class="section-header">
+                <h2>
+                    Contact
+                </h2>
+            </div>
+            <form class="contact-form">
+                <h3>Full name:</h3>
+                <br>
+                <input id="name" type="text" name="fullname">
+                <br>
+                <h3>Email:</h3>
+                <br>
+                <input id="email" type="email" name="email">
+                <br>
+                <h3>Message:</h3>
+                <br>
+                <textarea id="message" type="text" name="message"></textarea>
+                <br><br>
+                <button type="submit" value="Submit">
+                    Submit
+                </button>
+            </form>
+        </section>
+        <footer class="footer">
+            <p>
+                Copyright &copy;
+            </p>
         </footer>
-</body>
+    </body>
 
 </html>
